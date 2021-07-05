@@ -1,0 +1,24 @@
+.nav-list-bar {
+  text-align: center;
+}
+
+.nav-list-item:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.objs-enter {
+  opacity: 0;
+  transform: scale(0.9);
+}
+.objs-enter-active {
+  opacity: 1;
+  transform: translateX(0);
+  transition: opacity 300ms, transform 300ms;
+}
+.objs-exit {
+  opacity: 1;
+}
+.objs-exit-active {
+  opacity: 0;
+  transform: scale(0.9);
+  transition: opacity 300ms, transform 300ms;
+}

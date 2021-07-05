@@ -1,0 +1,20 @@
+.profile-list-item:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.profs-enter {
+  opacity: 0;
+  transform: scale(0.9);
+}
+.profs-enter-active {
+  opacity: 1;
+  transform: translateX(0);
+  transition: opacity 500ms, transform 500ms;
+}
+.profs-exit {
+  opacity: 1;
+}
+.profs-exit-active {
+  opacity: 0;
+  transform: translateX(200px);
+  transition: transform 100ms cubic-bezier(0.7, 0, 0.84, 0);
+}

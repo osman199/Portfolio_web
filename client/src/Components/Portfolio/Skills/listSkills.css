@@ -1,0 +1,24 @@
+.remove-btn {
+  margin-right: 0;
+  margin-top: 0;
+  float: right;
+}
+
+.item-enter {
+  opacity: 0;
+}
+.item-enter-active {
+  opacity: 1;
+  transition: opacity 800ms ease-in;
+}
+.item-exit {
+  opacity: 1;
+}
+.item-exit-active {
+  opacity: 0;
+  transition: opacity 800ms ease-in;
+}
+
+.react-scrollbar-default {
+  max-height: 350px;
+}
